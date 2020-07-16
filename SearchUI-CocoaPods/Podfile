@@ -1,0 +1,14 @@
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/mapbox/pod-specs.git'
+
+platform :ios, '11.0'
+
+target 'SearchUI-CocoaPodsDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'MapboxSearchUI'
+
+  # Pods for SearchUI-CocoaPodsDemo
+
+end

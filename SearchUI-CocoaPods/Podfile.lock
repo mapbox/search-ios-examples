@@ -1,0 +1,20 @@
+PODS:
+  - MapboxSearch (0.3.0)
+  - MapboxSearchUI (0.3.0):
+    - MapboxSearch
+
+DEPENDENCIES:
+  - MapboxSearchUI
+
+SPEC REPOS:
+  https://github.com/mapbox/pod-specs.git:
+    - MapboxSearch
+    - MapboxSearchUI
+
+SPEC CHECKSUMS:
+  MapboxSearch: 71eb5633f1f233b6eda5e4615ecdea99403e15bd
+  MapboxSearchUI: c2bb0533ad77fdec49e82c5233d310d387c2e992
+
+PODFILE CHECKSUM: fb08ec7f01d8893fe790c61d17032899568c1adb
+
+COCOAPODS: 1.9.3
