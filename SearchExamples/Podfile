@@ -1,0 +1,14 @@
+source 'https://cdn.cocoapods.org/'
+source 'git@github.com:mapbox/pod-specs-internal.git'
+# source 'git@github.com:mapbox/pod-specs.git'
+
+platform :ios, '11.0'
+
+target 'SearchExamples' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Mapbox-iOS-SDK'
+  pod 'MapboxSearch'
+
+end
