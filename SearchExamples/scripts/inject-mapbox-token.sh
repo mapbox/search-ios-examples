@@ -1,3 +1,4 @@
+# Version: 1.0
 token_file=$SRCROOT/mapbox_access_token
 
 # First check the above path, then the user directory.
