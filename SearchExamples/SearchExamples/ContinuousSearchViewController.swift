@@ -30,7 +30,7 @@ class ContinuousSearchViewController: UIViewController {
 extension ContinuousSearchViewController {
     @objc
     func textFieldTextDidChanged() {
-        /// Update `SearchEngine.query` field as fast as you need. `SearchEngine` implements short delay until
+        /// Update `SearchEngine.query` field as fast as you need. `SearchEngine` waits a short amount of time for the query string to optimize network connectivy.
         searchEngine.query = textField.text!
     }
 }
