@@ -10,5 +10,6 @@ target 'SearchExamples' do
 
   pod 'Mapbox-iOS-SDK'
   pod 'MapboxSearch'
+  pod 'MapboxSearchUI'
 
 end
