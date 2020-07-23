@@ -20,7 +20,7 @@
 		FE114D9D24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE114D9C24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift */; };
 		FE5EC2EE24C5E9A7000DB978 /* AppleBoundingBoxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5EC2ED24C5E9A7000DB978 /* AppleBoundingBoxController.swift */; };
 		FE5EC2F124C60F3C000DB978 /* SimpleUISearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5EC2F024C60F3C000DB978 /* SimpleUISearchViewController.swift */; };
-		FE780E3224C9B3D000C62400 /* MapboxBoundingBoxController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController copy.swift */; };
+		FE780E3224C9B3D000C62400 /* MapboxBoundingBoxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 		FE114D9C24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSearchViewController.swift; sourceTree = "<group>"; };
 		FE5EC2ED24C5E9A7000DB978 /* AppleBoundingBoxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBoundingBoxController.swift; sourceTree = "<group>"; };
 		FE5EC2F024C60F3C000DB978 /* SimpleUISearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUISearchViewController.swift; sourceTree = "<group>"; };
-		FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapboxBoundingBoxController copy.swift"; sourceTree = "<group>"; };
+		FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxBoundingBoxController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +140,7 @@
 		FE5EC2EC24C5E98B000DB978 /* Follow Bounding Box */ = {
 			isa = PBXGroup;
 			children = (
-				FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController copy.swift */,
+				FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController.swift */,
 				FE5EC2ED24C5E9A7000DB978 /* AppleBoundingBoxController.swift */,
 			);
 			name = "Follow Bounding Box";
@@ -302,7 +302,7 @@
 			files = (
 				FE114D8224C1A382001B2CE8 /* SimpleListSearchViewController.swift in Sources */,
 				FE114AAC24C10B88001B2CE8 /* ViewController.swift in Sources */,
-				FE780E3224C9B3D000C62400 /* MapboxBoundingBoxController copy.swift in Sources */,
+				FE780E3224C9B3D000C62400 /* MapboxBoundingBoxController.swift in Sources */,
 				FE5EC2EE24C5E9A7000DB978 /* AppleBoundingBoxController.swift in Sources */,
 				FE114D9524C1C1E9001B2CE8 /* SimpleCategorySearchViewController.swift in Sources */,
 				FE114D9D24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift in Sources */,
