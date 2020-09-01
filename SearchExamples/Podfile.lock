@@ -1,31 +1,30 @@
 PODS:
-  - Mapbox-iOS-SDK (6.0.0):
+  - Mapbox-iOS-SDK (6.1.0):
     - MapboxMobileEvents (= 0.10.2)
   - MapboxMobileEvents (0.10.2)
-  - MapboxSearch (0.7.4):
+  - MapboxSearch (1.0.0-beta.1):
     - MapboxMobileEvents (~> 0.10.0)
-  - MapboxSearchUI (0.7.4):
-    - MapboxSearch (~> 0.7.0)
+  - MapboxSearchUI (1.0.0-beta.1):
+    - MapboxSearch (< 2.0, >= 1.0.0-beta)
 
 DEPENDENCIES:
   - Mapbox-iOS-SDK
-  - MapboxSearch
-  - MapboxSearchUI
+  - MapboxSearch (< 2.0, >= 1.0.0-beta)
+  - MapboxSearchUI (< 2.0, >= 1.0.0-beta)
 
 SPEC REPOS:
-  "git@github.com:mapbox/pod-specs-internal.git":
-    - MapboxSearch
-    - MapboxSearchUI
   trunk:
     - Mapbox-iOS-SDK
     - MapboxMobileEvents
+    - MapboxSearch
+    - MapboxSearchUI
 
 SPEC CHECKSUMS:
-  Mapbox-iOS-SDK: 48ff7550bd459b8494da8ef4d660a668e9187ef0
+  Mapbox-iOS-SDK: c2ad9880240884d3aff90660da64a5321cef91db
   MapboxMobileEvents: 2bc0ca2eedb627b73cf403258dce2b2fa98074a6
-  MapboxSearch: 95b28379ca9542ebb4faa02a334d0338787d90b0
-  MapboxSearchUI: abe907b844d1517d8022813acf9e2948523716bc
+  MapboxSearch: c35761821af8eff487858d6511953e06d93210b9
+  MapboxSearchUI: 743698b8b8d8ba74692255cef661687ef1e87de3
 
-PODFILE CHECKSUM: 9e0abd562c68d3ece90d1d9cfad3d662ef19a29c
+PODFILE CHECKSUM: 8e80f4e79162b63eae73355e04cd071903a5a016
 
 COCOAPODS: 1.9.3
