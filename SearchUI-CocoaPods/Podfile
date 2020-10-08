@@ -7,7 +7,7 @@ target 'SearchUI-CocoaPodsDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'MapboxSearchUI'
+  pod 'MapboxSearchUI', ">= 1.0.0-beta.1", "< 2.0"
 
   # Pods for SearchUI-CocoaPodsDemo
 

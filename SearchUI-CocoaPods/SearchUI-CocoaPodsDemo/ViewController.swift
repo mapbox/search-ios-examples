@@ -51,9 +51,9 @@ extension ViewController: SearchControllerDelegate {
     func categorySearchResultsReceived(results: [SearchResult]) {
         let annotations = results.map { searchResult -> MKPointAnnotation in
             let annotation = MKPointAnnotation()
-            annotation.coordinate = searchResult.coordinate()
+            annotation.coordinate = searchResult.coordinate
             annotation.title = searchResult.name
-            annotation.subtitle = searchResult.address.formattedAddress(style: .medium)
+            annotation.subtitle = searchResult.address?.formattedAddress(style: .medium)
             return annotation
         }
         
@@ -62,18 +62,18 @@ extension ViewController: SearchControllerDelegate {
     
     func searchResultSelected(_ searchResult: SearchResult) {
         let annotation = MKPointAnnotation()
-        annotation.coordinate = searchResult.coordinate()
+        annotation.coordinate = searchResult.coordinate
         annotation.title = searchResult.name
-        annotation.subtitle = searchResult.address.formattedAddress(style: .medium)
+        annotation.subtitle = searchResult.address?.formattedAddress(style: .medium)
         
-        showAnnotation([annotation], isPOI: searchResult.resultType == .POI)
+        showAnnotation([annotation], isPOI: searchResult.type == .POI)
     }
     
-    func userFavoriteSelected(_ userFavorite: UserFavorite) {
+    func userFavoriteSelected(_ favorite: FavoriteRecord) {
         let annotation = MKPointAnnotation()
-        annotation.coordinate = userFavorite.coordinate
-        annotation.title = userFavorite.name
-        annotation.subtitle = userFavorite.address?.formattedAddress(style: .medium)
+        annotation.coordinate = favorite.coordinate
+        annotation.title = favorite.name
+        annotation.subtitle = favorite.address?.formattedAddress(style: .medium)
         
         showAnnotation([annotation], isPOI: true)
     }
