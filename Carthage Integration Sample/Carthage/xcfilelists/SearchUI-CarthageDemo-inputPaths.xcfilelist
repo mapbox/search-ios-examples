@@ -1,0 +1,4 @@
+$(SRCROOT)/Carthage/Build/iOS/MapboxCommon.framework
+$(SRCROOT)/Carthage/Build/iOS/MapboxMobileEvents.framework
+$(SRCROOT)/Carthage/Build/iOS/MapboxSearch.framework
+$(SRCROOT)/Carthage/Build/iOS/MapboxSearchUI.framework
