@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE98F43E25DA778800242941 /* MapboxCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE98F43D25DA778800242941 /* MapboxCommon.framework */; };
+		FEB58E922539BE54006890F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB58E912539BE54006890F4 /* AppDelegate.swift */; };
+		FEB58E962539BE54006890F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB58E952539BE54006890F4 /* ViewController.swift */; };
+		FEB58E992539BE54006890F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB58E972539BE54006890F4 /* Main.storyboard */; };
+		FEB58E9B2539BE55006890F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB58E9A2539BE55006890F4 /* Assets.xcassets */; };
+		FEB58E9E2539BE55006890F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB58E9C2539BE55006890F4 /* LaunchScreen.storyboard */; };
+		FEB58EB12539C6E2006890F4 /* MapboxSearchUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB58EAC2539C6E2006890F4 /* MapboxSearchUI.framework */; };
+		FEB58EB32539C6E2006890F4 /* MapboxSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB58EAD2539C6E2006890F4 /* MapboxSearch.framework */; };
+		FEB58EB52539C6E2006890F4 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB58EAE2539C6E2006890F4 /* MapboxMobileEvents.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE98F43D25DA778800242941 /* MapboxCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxCommon.framework; path = Carthage/Build/iOS/MapboxCommon.framework; sourceTree = "<group>"; };
+		FEB58E8E2539BE54006890F4 /* SearchUI-CarthageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SearchUI-CarthageDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB58E912539BE54006890F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEB58E952539BE54006890F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEB58E982539BE54006890F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEB58E9A2539BE55006890F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEB58E9D2539BE55006890F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEB58E9F2539BE55006890F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB58EAB2539C6E2006890F4 /* MapboxCoreSearch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxCoreSearch.framework; path = Carthage/Build/iOS/MapboxCoreSearch.framework; sourceTree = "<group>"; };
+		FEB58EAC2539C6E2006890F4 /* MapboxSearchUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxSearchUI.framework; path = Carthage/Build/iOS/MapboxSearchUI.framework; sourceTree = "<group>"; };
+		FEB58EAD2539C6E2006890F4 /* MapboxSearch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxSearch.framework; path = Carthage/Build/iOS/MapboxSearch.framework; sourceTree = "<group>"; };
+		FEB58EAE2539C6E2006890F4 /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxMobileEvents.framework; path = Carthage/Build/iOS/MapboxMobileEvents.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEB58E8B2539BE54006890F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB58EB52539C6E2006890F4 /* MapboxMobileEvents.framework in Frameworks */,
+				FEB58EB32539C6E2006890F4 /* MapboxSearch.framework in Frameworks */,
+				FEB58EB12539C6E2006890F4 /* MapboxSearchUI.framework in Frameworks */,
+				FE98F43E25DA778800242941 /* MapboxCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEB58E852539BE54006890F4 = {
+			isa = PBXGroup;
+			children = (
+				FEB58E902539BE54006890F4 /* SearchUI-CarthageDemo */,
+				FEB58E8F2539BE54006890F4 /* Products */,
+				FEB58EAA2539C6E2006890F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEB58E8F2539BE54006890F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEB58E8E2539BE54006890F4 /* SearchUI-CarthageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEB58E902539BE54006890F4 /* SearchUI-CarthageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEB58E912539BE54006890F4 /* AppDelegate.swift */,
+				FEB58E952539BE54006890F4 /* ViewController.swift */,
+				FEB58E972539BE54006890F4 /* Main.storyboard */,
+				FEB58E9A2539BE55006890F4 /* Assets.xcassets */,
+				FEB58E9C2539BE55006890F4 /* LaunchScreen.storyboard */,
+				FEB58E9F2539BE55006890F4 /* Info.plist */,
+			);
+			path = "SearchUI-CarthageDemo";
+			sourceTree = "<group>";
+		};
+		FEB58EAA2539C6E2006890F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE98F43D25DA778800242941 /* MapboxCommon.framework */,
+				FEB58EAB2539C6E2006890F4 /* MapboxCoreSearch.framework */,
+				FEB58EAE2539C6E2006890F4 /* MapboxMobileEvents.framework */,
+				FEB58EAD2539C6E2006890F4 /* MapboxSearch.framework */,
+				FEB58EAC2539C6E2006890F4 /* MapboxSearchUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEB58E8D2539BE54006890F4 /* SearchUI-CarthageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB58EA22539BE55006890F4 /* Build configuration list for PBXNativeTarget "SearchUI-CarthageDemo" */;
+			buildPhases = (
+				FEB58E8A2539BE54006890F4 /* Sources */,
+				FEB58E8B2539BE54006890F4 /* Frameworks */,
+				FEB58E8C2539BE54006890F4 /* Resources */,
+				228EA21ADB2F91D6FED4BECE /* Carthage */,
+				FE98F44225DA798C00242941 /* Inject Mapbox token */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SearchUI-CarthageDemo";
+			productName = "SearchUI-CarthageDemo";
+			productReference = FEB58E8E2539BE54006890F4 /* SearchUI-CarthageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB58E862539BE54006890F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FEB58E8D2539BE54006890F4 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = FEB58E892539BE54006890F4 /* Build configuration list for PBXProject "SearchUI-CarthageDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEB58E852539BE54006890F4;
+			productRefGroup = FEB58E8F2539BE54006890F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB58E8D2539BE54006890F4 /* SearchUI-CarthageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEB58E8C2539BE54006890F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB58E9E2539BE55006890F4 /* LaunchScreen.storyboard in Resources */,
+				FEB58E9B2539BE55006890F4 /* Assets.xcassets in Resources */,
+				FEB58E992539BE54006890F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		228EA21ADB2F91D6FED4BECE /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/Carthage/xcfilelists/SearchUI-CarthageDemo-inputPaths.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = Carthage;
+			outputFileListPaths = (
+				"$(SRCROOT)/Carthage/xcfilelists/SearchUI-CarthageDemo-outputPaths.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		FE98F44225DA798C00242941 /* Inject Mapbox token */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Inject Mapbox token";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Source: https://docs.mapbox.com/help/troubleshooting/private-access-token-android-and-ios/#ios\n# Look for a global file named 'mapbox' or '.mapbox' within the home directory\ntoken_file=\"${HOME}/.mapbox\"\ntoken_file2=\"${HOME}/mapbox\"\n\ntoken=\"$(cat \"$token_file\" 2>/dev/null || cat \"$token_file2\" 2>/dev/null)\"\nif [ \"$token\" ]; then\n  plutil -replace MBXAccessToken -string \"$token\" \"$SCRIPT_INPUT_FILE_0\"\n  plutil -replace MGLMapboxAccessToken -string \"$token\" \"$SCRIPT_INPUT_FILE_0\"\nelse\n  echo 'warning: Missing Mapbox access token'\n  echo \"warning: Get an access token from <https://www.mapbox.com/account/access-tokens/>, then create a new file at \"$token_file\" or \"$token_file2\" that contains the access token.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEB58E8A2539BE54006890F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB58E962539BE54006890F4 /* ViewController.swift in Sources */,
+				FEB58E922539BE54006890F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEB58E972539BE54006890F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB58E982539BE54006890F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEB58E9C2539BE55006890F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB58E9D2539BE55006890F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEB58EA02539BE55006890F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEB58EA12539BE55006890F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEB58EA32539BE55006890F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "SearchUI-CarthageDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mapbox.SearchUI-CarthageDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEB58EA42539BE55006890F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "SearchUI-CarthageDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mapbox.SearchUI-CarthageDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB58E892539BE54006890F4 /* Build configuration list for PBXProject "SearchUI-CarthageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB58EA02539BE55006890F4 /* Debug */,
+				FEB58EA12539BE55006890F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB58EA22539BE55006890F4 /* Build configuration list for PBXNativeTarget "SearchUI-CarthageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB58EA32539BE55006890F4 /* Debug */,
+				FEB58EA42539BE55006890F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEB58E862539BE54006890F4 /* Project object */;
+}
