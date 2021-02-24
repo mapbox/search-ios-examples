@@ -1,11 +1,11 @@
 PODS:
   - MapboxCommon (9.0.2)
-  - MapboxMobileEvents (0.10.7)
-  - MapboxSearch (1.0.0-beta.3):
+  - MapboxMobileEvents (0.10.8)
+  - MapboxSearch (1.0.0-beta.4):
     - MapboxCommon (~> 9.0.0)
     - MapboxMobileEvents (~> 0.10.0)
-  - MapboxSearchUI (1.0.0-beta.3):
-    - MapboxSearch (< 2.0, >= 1.0.0-beta.2)
+  - MapboxSearchUI (1.0.0-beta.4):
+    - MapboxSearch (< 2.0, >= 1.0.0-beta.4)
 
 DEPENDENCIES:
   - MapboxSearch (< 2.0, >= 1.0.0-beta.1)
@@ -20,10 +20,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   MapboxCommon: 1c856a49ca7e8acda99fee5f27ce2e7a05478a34
-  MapboxMobileEvents: d0a581dedd8f47411cc65ea520b965e83914316e
-  MapboxSearch: f6391477ff77332d0aed8ff8d772068f5282f0a7
-  MapboxSearchUI: 2ec9538b290860f14a170061f1b67df66f6ee2da
+  MapboxMobileEvents: 36ff53b135aac486eed94b61f813c7967a0c2c6f
+  MapboxSearch: f268063490ef583621daeb4e15de7ddc95bd4f67
+  MapboxSearchUI: c4980f84b2b30f99aa80f38356b3e43381c2248c
 
-PODFILE CHECKSUM: 06f6f74be0444e95e9f55d0ce56b61f1fa636bda
+PODFILE CHECKSUM: 64bf2e9da9c6cdd379a516310e57aa6c83ad1be8
 
 COCOAPODS: 1.10.1
