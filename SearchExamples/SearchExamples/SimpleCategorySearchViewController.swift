@@ -1,7 +1,7 @@
 import UIKit
 import MapboxSearch
 
-class SimpleCategorySearchViewController: UIViewController {
+class SimpleCategorySearchViewController: MapsViewController {
     let searchEngine = CategorySearchEngine()
 //    let searchEngine = CategorySearchEngine(accessToken: "<#You can pass access token manually#>")
     
@@ -16,6 +16,8 @@ class SimpleCategorySearchViewController: UIViewController {
                 for result in results {
                     print("\tResult coordinate: \(result.coordinate)")
                 }
+                
+                self.showAnnotations(results: results)
             } catch {
                 print("Error during category search: \(error)")
             }

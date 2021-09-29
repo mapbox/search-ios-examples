@@ -3,46 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CFBF8DCD30819550F76759F /* Pods_SearchExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468206C0EBC9DA16435D6D81 /* Pods_SearchExamples.framework */; };
+		FE00067F26FDCB9E00846819 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00067E26FDCB9E00846819 /* Examples.swift */; };
+		FE0720BE26FC86C70065A273 /* MapboxSearch in Frameworks */ = {isa = PBXBuildFile; productRef = FE0720BD26FC86C70065A273 /* MapboxSearch */; };
+		FE0720C026FC86C70065A273 /* MapboxSearchUI in Frameworks */ = {isa = PBXBuildFile; productRef = FE0720BF26FC86C70065A273 /* MapboxSearchUI */; };
 		FE114AA824C10B88001B2CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE114AA724C10B88001B2CE8 /* AppDelegate.swift */; };
-		FE114AAC24C10B88001B2CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE114AAB24C10B88001B2CE8 /* ViewController.swift */; };
-		FE114AAF24C10B88001B2CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE114AAD24C10B88001B2CE8 /* Main.storyboard */; };
 		FE114AB124C10B8A001B2CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE114AB024C10B8A001B2CE8 /* Assets.xcassets */; };
 		FE114AB424C10B8A001B2CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE114AB224C10B8A001B2CE8 /* LaunchScreen.storyboard */; };
 		FE114D8224C1A382001B2CE8 /* SimpleListSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE114D8124C1A382001B2CE8 /* SimpleListSearchViewController.swift */; };
 		FE114D9524C1C1E9001B2CE8 /* SimpleCategorySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE114D9424C1C1E9001B2CE8 /* SimpleCategorySearchViewController.swift */; };
-		FE114D9924C1C6EF001B2CE8 /* AppleMapsCategoryResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE114D9824C1C6EF001B2CE8 /* AppleMapsCategoryResultsViewController.swift */; };
 		FE114D9B24C1E37D001B2CE8 /* MapboxMapsCategoryResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE114D9A24C1E37D001B2CE8 /* MapboxMapsCategoryResultsViewController.swift */; };
 		FE114D9D24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE114D9C24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift */; };
-		FE5EC2EE24C5E9A7000DB978 /* AppleBoundingBoxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5EC2ED24C5E9A7000DB978 /* AppleBoundingBoxController.swift */; };
 		FE5EC2F124C60F3C000DB978 /* SimpleUISearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5EC2F024C60F3C000DB978 /* SimpleUISearchViewController.swift */; };
-		FE780E3224C9B3D000C62400 /* MapboxBoundingBoxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController.swift */; };
+		FE8295832701E46D001005B4 /* MapboxBoundingBoxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController.swift */; };
+		FE849B5626FC9E63001CBC27 /* ExamplesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE849B5526FC9E63001CBC27 /* ExamplesTableViewController.swift */; };
+		FE849B5826FCB72F001CBC27 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE849B5726FCB72F001CBC27 /* Extensions.swift */; };
+		FE849B5A26FCBCEC001CBC27 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE849B5926FCBCEC001CBC27 /* MapsViewController.swift */; };
+		FE93032526F8D87A00644DF6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = FE93032426F8D87A00644DF6 /* MapboxMaps */; };
+		FE9DFDAA26F8D9A60021375F /* MapboxSearch in Frameworks */ = {isa = PBXBuildFile; productRef = FE9DFDA926F8D9A60021375F /* MapboxSearch */; };
+		FE9DFDAC26F8DA0F0021375F /* MapboxSearchUI in Frameworks */ = {isa = PBXBuildFile; productRef = FE9DFDAB26F8DA0F0021375F /* MapboxSearchUI */; };
+		FEF1D1BA26FDF642004AE229 /* TextViewLoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1D1B926FDF642004AE229 /* TextViewLoggerViewController.swift */; };
+		FEF1D1BD26FDFB1F004AE229 /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = FEF1D1BC26FDFB1F004AE229 /* Atlantis */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33A15099141EAD8C7EFB44BF /* Pods-SearchExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchExamples.release.xcconfig"; path = "Target Support Files/Pods-SearchExamples/Pods-SearchExamples.release.xcconfig"; sourceTree = "<group>"; };
-		468206C0EBC9DA16435D6D81 /* Pods_SearchExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B29A10D3B491CC72F41D8F83 /* Pods-SearchExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchExamples.debug.xcconfig"; path = "Target Support Files/Pods-SearchExamples/Pods-SearchExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		FE00067E26FDCB9E00846819 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
 		FE114AA424C10B88001B2CE8 /* SearchExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE114AA724C10B88001B2CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE114AAB24C10B88001B2CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE114AAE24C10B88001B2CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE114AB024C10B8A001B2CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE114AB324C10B8A001B2CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE114AB524C10B8A001B2CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE114D7124C19C78001B2CE8 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
 		FE114D8124C1A382001B2CE8 /* SimpleListSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListSearchViewController.swift; sourceTree = "<group>"; };
 		FE114D9424C1C1E9001B2CE8 /* SimpleCategorySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCategorySearchViewController.swift; sourceTree = "<group>"; };
-		FE114D9824C1C6EF001B2CE8 /* AppleMapsCategoryResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsCategoryResultsViewController.swift; sourceTree = "<group>"; };
 		FE114D9A24C1E37D001B2CE8 /* MapboxMapsCategoryResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxMapsCategoryResultsViewController.swift; sourceTree = "<group>"; };
 		FE114D9C24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSearchViewController.swift; sourceTree = "<group>"; };
-		FE5EC2ED24C5E9A7000DB978 /* AppleBoundingBoxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBoundingBoxController.swift; sourceTree = "<group>"; };
 		FE5EC2F024C60F3C000DB978 /* SimpleUISearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUISearchViewController.swift; sourceTree = "<group>"; };
 		FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxBoundingBoxController.swift; sourceTree = "<group>"; };
+		FE849B5526FC9E63001CBC27 /* ExamplesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesTableViewController.swift; sourceTree = "<group>"; };
+		FE849B5726FCB72F001CBC27 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FE849B5926FCBCEC001CBC27 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		FE9DFDAE26F8E0430021375F /* inject-mapbox-token.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "inject-mapbox-token.sh"; sourceTree = "<group>"; };
+		FEF1D1B926FDF642004AE229 /* TextViewLoggerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewLoggerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,38 +54,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CFBF8DCD30819550F76759F /* Pods_SearchExamples.framework in Frameworks */,
+				FE93032526F8D87A00644DF6 /* MapboxMaps in Frameworks */,
+				FE0720C026FC86C70065A273 /* MapboxSearchUI in Frameworks */,
+				FE0720BE26FC86C70065A273 /* MapboxSearch in Frameworks */,
+				FE9DFDAC26F8DA0F0021375F /* MapboxSearchUI in Frameworks */,
+				FEF1D1BD26FDFB1F004AE229 /* Atlantis in Frameworks */,
+				FE9DFDAA26F8D9A60021375F /* MapboxSearch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63D286264A9F7E05AAF5DAB4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				468206C0EBC9DA16435D6D81 /* Pods_SearchExamples.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E2D932E265AF7D99A9F43A94 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B29A10D3B491CC72F41D8F83 /* Pods-SearchExamples.debug.xcconfig */,
-				33A15099141EAD8C7EFB44BF /* Pods-SearchExamples.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		FE114A9B24C10B88001B2CE8 = {
 			isa = PBXGroup;
 			children = (
 				FE114AA624C10B88001B2CE8 /* SearchExamples */,
-				FE114D7124C19C78001B2CE8 /* scripts */,
+				FE9DFDAD26F8E0430021375F /* scripts */,
 				FE114AA524C10B88001B2CE8 /* Products */,
-				E2D932E265AF7D99A9F43A94 /* Pods */,
-				63D286264A9F7E05AAF5DAB4 /* Frameworks */,
+				FE9DFDA826F8D9A60021375F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,11 +87,13 @@
 		FE114AA624C10B88001B2CE8 /* SearchExamples */ = {
 			isa = PBXGroup;
 			children = (
-				FE114D9624C1C6AB001B2CE8 /* Basics */,
-				FE114D9724C1C6C5001B2CE8 /* Display on the Map */,
-				FE114D9C24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift */,
-				FE5EC2EC24C5E98B000DB978 /* Follow Bounding Box */,
 				FE114D9324C1B0A3001B2CE8 /* Common */,
+				FE114D9C24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift */,
+				FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController.swift */,
+				FE114D9A24C1E37D001B2CE8 /* MapboxMapsCategoryResultsViewController.swift */,
+				FE114D9424C1C1E9001B2CE8 /* SimpleCategorySearchViewController.swift */,
+				FE114D8124C1A382001B2CE8 /* SimpleListSearchViewController.swift */,
+				FE5EC2F024C60F3C000DB978 /* SimpleUISearchViewController.swift */,
 			);
 			path = SearchExamples;
 			sourceTree = "<group>";
@@ -108,42 +101,32 @@
 		FE114D9324C1B0A3001B2CE8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				FE114AB524C10B8A001B2CE8 /* Info.plist */,
 				FE114AA724C10B88001B2CE8 /* AppDelegate.swift */,
-				FE114AAB24C10B88001B2CE8 /* ViewController.swift */,
-				FE114AAD24C10B88001B2CE8 /* Main.storyboard */,
+				FE00067E26FDCB9E00846819 /* Examples.swift */,
+				FE849B5526FC9E63001CBC27 /* ExamplesTableViewController.swift */,
+				FE849B5726FCB72F001CBC27 /* Extensions.swift */,
+				FE849B5926FCBCEC001CBC27 /* MapsViewController.swift */,
+				FEF1D1B926FDF642004AE229 /* TextViewLoggerViewController.swift */,
 				FE114AB024C10B8A001B2CE8 /* Assets.xcassets */,
 				FE114AB224C10B8A001B2CE8 /* LaunchScreen.storyboard */,
-				FE114AB524C10B8A001B2CE8 /* Info.plist */,
 			);
 			name = Common;
 			sourceTree = "<group>";
 		};
-		FE114D9624C1C6AB001B2CE8 /* Basics */ = {
+		FE9DFDA826F8D9A60021375F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE114D8124C1A382001B2CE8 /* SimpleListSearchViewController.swift */,
-				FE114D9424C1C1E9001B2CE8 /* SimpleCategorySearchViewController.swift */,
-				FE5EC2F024C60F3C000DB978 /* SimpleUISearchViewController.swift */,
 			);
-			name = Basics;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FE114D9724C1C6C5001B2CE8 /* Display on the Map */ = {
+		FE9DFDAD26F8E0430021375F /* scripts */ = {
 			isa = PBXGroup;
 			children = (
-				FE114D9A24C1E37D001B2CE8 /* MapboxMapsCategoryResultsViewController.swift */,
-				FE114D9824C1C6EF001B2CE8 /* AppleMapsCategoryResultsViewController.swift */,
+				FE9DFDAE26F8E0430021375F /* inject-mapbox-token.sh */,
 			);
-			name = "Display on the Map";
-			sourceTree = "<group>";
-		};
-		FE5EC2EC24C5E98B000DB978 /* Follow Bounding Box */ = {
-			isa = PBXGroup;
-			children = (
-				FE780E3124C9B3D000C62400 /* MapboxBoundingBoxController.swift */,
-				FE5EC2ED24C5E9A7000DB978 /* AppleBoundingBoxController.swift */,
-			);
-			name = "Follow Bounding Box";
+			path = scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,19 +136,24 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE114AB824C10B8A001B2CE8 /* Build configuration list for PBXNativeTarget "SearchExamples" */;
 			buildPhases = (
-				EC1A71B241F2D057A1FD2141 /* [CP] Check Pods Manifest.lock */,
-				703B48ABECF0092AF16AF4DB /* [CP] Prepare Artifacts */,
 				FE114AA024C10B88001B2CE8 /* Sources */,
 				FE114AA124C10B88001B2CE8 /* Frameworks */,
 				FE114AA224C10B88001B2CE8 /* Resources */,
 				FE114ABB24C10E0E001B2CE8 /* Inject Mapbox Access Token */,
-				4F8B3DF6B3A53DC5A5FD990B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SearchExamples;
+			packageProductDependencies = (
+				FE93032426F8D87A00644DF6 /* MapboxMaps */,
+				FE9DFDA926F8D9A60021375F /* MapboxSearch */,
+				FE9DFDAB26F8DA0F0021375F /* MapboxSearchUI */,
+				FE0720BD26FC86C70065A273 /* MapboxSearch */,
+				FE0720BF26FC86C70065A273 /* MapboxSearchUI */,
+				FEF1D1BC26FDFB1F004AE229 /* Atlantis */,
+			);
 			productName = SearchExamples;
 			productReference = FE114AA424C10B88001B2CE8 /* SearchExamples.app */;
 			productType = "com.apple.product-type.application";
@@ -194,6 +182,11 @@
 				Base,
 			);
 			mainGroup = FE114A9B24C10B88001B2CE8;
+			packageReferences = (
+				FE93032326F8D87A00644DF6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				FE0720BC26FC86C70065A273 /* XCRemoteSwiftPackageReference "search-ios" */,
+				FEF1D1BB26FDFB1F004AE229 /* XCRemoteSwiftPackageReference "atlantis" */,
+			);
 			productRefGroup = FE114AA524C10B88001B2CE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -210,69 +203,12 @@
 			files = (
 				FE114AB424C10B8A001B2CE8 /* LaunchScreen.storyboard in Resources */,
 				FE114AB124C10B8A001B2CE8 /* Assets.xcassets in Resources */,
-				FE114AAF24C10B88001B2CE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4F8B3DF6B3A53DC5A5FD990B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchExamples/Pods-SearchExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchExamples/Pods-SearchExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchExamples/Pods-SearchExamples-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		703B48ABECF0092AF16AF4DB /* [CP] Prepare Artifacts */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchExamples/Pods-SearchExamples-artifacts-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Prepare Artifacts";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchExamples/Pods-SearchExamples-artifacts-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchExamples/Pods-SearchExamples-artifacts.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC1A71B241F2D057A1FD2141 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SearchExamples-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FE114ABB24C10E0E001B2CE8 /* Inject Mapbox Access Token */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,15 +236,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF1D1BA26FDF642004AE229 /* TextViewLoggerViewController.swift in Sources */,
+				FE849B5626FC9E63001CBC27 /* ExamplesTableViewController.swift in Sources */,
 				FE114D8224C1A382001B2CE8 /* SimpleListSearchViewController.swift in Sources */,
-				FE114AAC24C10B88001B2CE8 /* ViewController.swift in Sources */,
-				FE780E3224C9B3D000C62400 /* MapboxBoundingBoxController.swift in Sources */,
-				FE5EC2EE24C5E9A7000DB978 /* AppleBoundingBoxController.swift in Sources */,
+				FE849B5A26FCBCEC001CBC27 /* MapsViewController.swift in Sources */,
+				FE8295832701E46D001005B4 /* MapboxBoundingBoxController.swift in Sources */,
 				FE114D9524C1C1E9001B2CE8 /* SimpleCategorySearchViewController.swift in Sources */,
 				FE114D9D24C1EBAD001B2CE8 /* ContinuousSearchViewController.swift in Sources */,
 				FE114D9B24C1E37D001B2CE8 /* MapboxMapsCategoryResultsViewController.swift in Sources */,
 				FE5EC2F124C60F3C000DB978 /* SimpleUISearchViewController.swift in Sources */,
-				FE114D9924C1C6EF001B2CE8 /* AppleMapsCategoryResultsViewController.swift in Sources */,
+				FE00067F26FDCB9E00846819 /* Examples.swift in Sources */,
+				FE849B5826FCB72F001CBC27 /* Extensions.swift in Sources */,
 				FE114AA824C10B88001B2CE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,14 +254,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FE114AAD24C10B88001B2CE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE114AAE24C10B88001B2CE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FE114AB224C10B8A001B2CE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,11 +381,10 @@
 		};
 		FE114AB924C10B8A001B2CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B29A10D3B491CC72F41D8F83 /* Pods-SearchExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GJZR2MEM28;
 				INFOPLIST_FILE = SearchExamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,11 +401,10 @@
 		};
 		FE114ABA24C10B8A001B2CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33A15099141EAD8C7EFB44BF /* Pods-SearchExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GJZR2MEM28;
 				INFOPLIST_FILE = SearchExamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,6 +441,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE0720BC26FC86C70065A273 /* XCRemoteSwiftPackageReference "search-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/search-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "1.0.0-beta";
+			};
+		};
+		FE93032326F8D87A00644DF6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "10.0.0-rc";
+			};
+		};
+		FEF1D1BB26FDFB1F004AE229 /* XCRemoteSwiftPackageReference "atlantis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ProxymanApp/atlantis";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE0720BD26FC86C70065A273 /* MapboxSearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE0720BC26FC86C70065A273 /* XCRemoteSwiftPackageReference "search-ios" */;
+			productName = MapboxSearch;
+		};
+		FE0720BF26FC86C70065A273 /* MapboxSearchUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE0720BC26FC86C70065A273 /* XCRemoteSwiftPackageReference "search-ios" */;
+			productName = MapboxSearchUI;
+		};
+		FE93032426F8D87A00644DF6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE93032326F8D87A00644DF6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		FE9DFDA926F8D9A60021375F /* MapboxSearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MapboxSearch;
+		};
+		FE9DFDAB26F8DA0F0021375F /* MapboxSearchUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MapboxSearchUI;
+		};
+		FEF1D1BC26FDFB1F004AE229 /* Atlantis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEF1D1BB26FDFB1F004AE229 /* XCRemoteSwiftPackageReference "atlantis" */;
+			productName = Atlantis;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE114A9C24C10B88001B2CE8 /* Project object */;
 }

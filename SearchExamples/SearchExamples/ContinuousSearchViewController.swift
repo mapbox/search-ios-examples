@@ -1,13 +1,14 @@
 import UIKit
 import MapboxSearch
 
-class ContinuousSearchViewController: UIViewController {
+class ContinuousSearchViewController: TextViewLoggerViewController {
     let searchEngine = SearchEngine()
     let textField = UITextField()
     let responseLabel = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         
         textField.borderStyle = .line
         textField.addTarget(self, action: #selector(textFieldTextDidChanged), for: .editingChanged)
@@ -17,6 +18,12 @@ class ContinuousSearchViewController: UIViewController {
         view.addSubview(responseLabel)
         
         searchEngine.delegate = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        textField.becomeFirstResponder()
     }
     
     override func viewDidLayoutSubviews() {
@@ -30,22 +37,21 @@ class ContinuousSearchViewController: UIViewController {
 extension ContinuousSearchViewController {
     @objc
     func textFieldTextDidChanged() {
-        /// Update `SearchEngine.query` field as fast as you need. `SearchEngine` waits a short amount of time for the query string to optimize network connectivy.
+        /// Update `SearchEngine.query` field as fast as you need. `SearchEngine` waits a short amount of time for the query string to optimize network usage.
         searchEngine.query = textField.text!
     }
 }
 
 extension ContinuousSearchViewController: SearchEngineDelegate {
-    func resultsUpdated(searchEngine: SearchEngine) {
-        print("Number of search results: \(searchEngine.items.count) for query: \(searchEngine.query)")
-        responseLabel.text = "q: \(searchEngine.query), count: \(searchEngine.items.count)"
+    func suggestionsUpdated(suggestions: [SearchSuggestion], searchEngine: SearchEngine) {
+        dumpSuggestions(suggestions, query: searchEngine.query)
     }
     
-    func resolvedResult(result: SearchResult) {
+    func resultResolved(result: SearchResult, searchEngine: SearchEngine) {
         print("Dumping resolved result:", dump(result))
     }
     
-    func searchErrorHappened(searchError: SearchError) {
+    func searchErrorHappened(searchError: SearchError, searchEngine: SearchEngine) {
         print("Error during search: \(searchError)")
     }
 }
